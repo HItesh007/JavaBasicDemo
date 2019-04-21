@@ -5,29 +5,34 @@ import com.java.corejavasample.SampleTwo;
 public class FirstJavaSample {
 
 
-
-    int Sum(int a, int b) {
+    /**
+     *
+     * @param a Value of type integer
+     * @param b value of type integer
+     * @return sum of a & b
+     */
+    private int Sum(int a, int b) {
         int sum = a + b;
         return  sum;
     }
 
-    int Mul(int a, int b) {
+    private int Mul(int a, int b) {
         int mul = a * b;
         return mul;
     }
 
-    int Div(int a, int b) {
+    private int Div(int a, int b) {
         int div = a / b;
         return div;
     }
 
-    int Subtract(int a, int b) {
+    private int Subtract(int a, int b) {
         int sub = a - b;
         return  sub;
     }
 
 
-    void printData(String type, int x) {
+    private void printData(String type, int x) {
         System.out.println(type + " : " + x);
     }
 
